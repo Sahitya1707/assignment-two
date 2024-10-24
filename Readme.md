@@ -27,8 +27,8 @@
 
 # SUBMITTING YOUR WORK
 
-Upload the HTML, CSS and any media files to a Web server and then post a URL to the document to this assignment directly. Additionally, consider uploading all assignment assets to a hosted code repository.
+- Upload the HTML, CSS and any media files to a Web server and then post a URL to the document to this assignment directly. Additionally, consider uploading all assignment assets to a hosted code repository.
 
 # EVALUATION
 
-Please refer to the attached assessment rubric. You will be graded on how well you followed the assignment instructions from both a technical and a creative perspective as spelled out in the rubric.
+- Please refer to the attached assessment rubric. You will be graded on how well you followed the assignment instructions from both a technical and a creative perspective as spelled out in the rubric.
