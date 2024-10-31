@@ -39,7 +39,9 @@
   color: transparent;
   text-shadow: -3px 5px 15px rgb(150, 94, 94);
 }
-
+.buy-book {
+  width: 100vw;
+}
 .button-style-1 {
   color: white;
   padding: 0.5rem 1rem;
@@ -52,7 +54,39 @@
   border-color: var(--color-1);
   transition: 0.2s ease-in-out;
 }
+header {
+  width: 100vw;
+}
 #nav {
   background-color: var(--color-1) !important;
+  padding-right: 3rem;
   /* height: 7rem; */
+}
+#about {
+  /* width: 100vw; */
+}
+.about-description {
+  gap: 0rem 6rem;
+}
+#about img {
+  height: 30rem;
+  /* width: 30rem; */
+  border: 2px solid black;
+}
+.heading-style-three {
+  -webkit-text-stroke: 1px var(--color-2);
+  color: transparent;
+  position: relative;
+  font-size: 2rem;
+}
+.heading-style-three::after {
+  position: absolute;
+  content: " ";
+  background-color: var(--color-2);
+  height: 90%;
+  width: 6px;
+  top: 5%;
+  /* right: 49%; */
+  left: 105%;
+  /* text-align: right; */
 }
