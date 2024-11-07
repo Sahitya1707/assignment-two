@@ -11,6 +11,12 @@
   --color-2: #8764ce;
   --color-3-lightborder: rgba(0, 0, 0, 0.332);
 }
+body section:first-of-type {
+  margin: 0 !important;
+}
+section {
+  margin: 2rem 0rem;
+}
 
 #home {
   height: 100vh;
@@ -124,4 +130,23 @@ header {
 
 .profile {
   height: 2rem;
+}
+
+/* author */
+
+#author-info img {
+  height: 23rem;
+  width: 17rem;
+}
+#carousel {
+  max-width: 600px;
+  max-height: 800px;
+  overflow: hidden;
+  border: 2px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #88ff00 !important;
 }
