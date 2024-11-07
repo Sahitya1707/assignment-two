@@ -12,10 +12,10 @@
   --color-3-lightborder: rgba(0, 0, 0, 0.332);
 }
 body section:first-of-type {
-  margin: 0 !important;
+  /* padding: 0 !important; */
 }
 section {
-  margin: 2rem 0rem;
+  padding: 2rem 0rem;
 }
 
 #home {
@@ -149,4 +149,10 @@ header {
 
 .carousel-indicators [data-bs-target] {
   background-color: #88ff00 !important;
+}
+/* buy now
+ */
+#buy-now .button-style-1 {
+  border-color: black;
+  color: black;
 }
