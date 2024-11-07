@@ -111,3 +111,17 @@ header {
   left: 105%;
   /* text-align: right; */
 }
+
+/* review */
+.review-card {
+  background-color: lightgray;
+  height: 14rem;
+  text-align: justify;
+}
+.review-card p:first-of-type {
+  height: 70%;
+}
+
+.profile {
+  height: 2rem;
+}
