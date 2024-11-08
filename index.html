@@ -63,9 +63,11 @@
                 </button>
                 <div class="nav-pills collapse navbar-collapse justify-content-end " id="navbarNavAltMarkup">
                     <div class="navbar-nav ">
-                        <a class="nav-link active text-uppercase fw-bolder" aria-current="page" href="#home">Home</a>
-                        <a class="nav-link text-uppercase fw-bolder" href="#about">About the Book</a>
-                        <a class="nav-link text-uppercase fw-bolder" href="#reviews">Reviews</a>
+                        <a class="nav-link active text-uppercase fw-bolder" data-bs-toggle="tab" aria-current="page"
+                            href="#home">Home</a>
+                        <a data-bs-toggle="tab" class="nav-link text-uppercase fw-bolder" href="#about">About the
+                            Book</a>
+                        <a data-bs-toggle="tab" class="nav-link text-uppercase fw-bolder" href="#reviews">Reviews</a>
                         <a class="nav-link text-uppercase fw-bolder" href="#author">Author</a>
                         <a class="nav-link text-uppercase fw-bolder" href="#buy-now">Buy Now</a>
 
@@ -127,7 +129,7 @@
                 </div>
             </div>
         </section>
-        <section class=" text-center border-bottom" id="reviews">
+        <section class=" text-center border-bottom " id="reviews">
             <span class="heading-style-three">What People says</span>
             <div class="row gap-4 row-cols-2  justify-content-center my-2">
                 <div class="col-5 px-4 py-3 review-card">
@@ -324,22 +326,29 @@
                 and related
                 resources, this section offers everything you need to apply the book’s lessons to your personal and
                 professional life.</p>
-            <ul class="nav nav-tabs  text-uppercase">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#faq">faq</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">publisher data</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">related resources</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                </li>
-            </ul>
-            <div>
-                <section id="faq">
+            <div class="nav nav-tabs " role="tablist">
+
+                <button class="nav-link active text-uppercase" id="faq-tab" data-bs-toggle="tab"
+                    data-bs-target="#faq-tab-pane" type="button" role="tab" aria-controls="faq-tab-pane"
+                    aria-selected="true">faq</button>
+
+
+                <button class="nav-link text-uppercase" id="publisher-data-tab" data-bs-toggle="tab"
+                    data-bs-target="#publisher-data-pane" type="button" role="tab" aria-controls="publisher-data-pane"
+                    aria-selected="false">publisher data</button>
+
+
+                <button class="nav-link text-uppercase" type="button" id="related-resources-tab" data-bs-toggle="tab"
+                    data-bs-target="#related-resources-pane" role="tab" aria-controls="related-resources-pane"
+                    aria-selected="false">related resources</button>
+
+
+
+
+            </div>
+            <div class="tab-content" id="tabContent">
+                <section class="show active tab-pane fade" role="tabpanel" aria-labelledby="faq-tab" tabindex="0"
+                    id="faq-tab-pane">
                     <div class="accordion" id="accordionFaq">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
@@ -502,7 +511,99 @@
                         </div>
                     </div>
                 </section>
-                <section id="publisher-data"></section>
+                <section class="tab-pane fade text-start" id="publisher-data-pane" role="tabpanel"
+                    aria-labelledby="publisher-data-tab" tabindex="0">
+
+                    <h2 class="text-center mb-4">Other Publisher Data</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="list-group">
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <strong>Title:</strong>
+                                    <span>Surrounded by Idiots</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <strong>Author:</strong>
+                                    <span>Thomas Erikson</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <strong>Publisher:</strong>
+                                    <span>St. Martin's Essentials</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <strong>Publication Date:</strong>
+                                    <span>July 30, 2019</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <strong>ISBN-10:</strong>
+                                    <span>1250179947</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="list-group">
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <strong class="">ISBN-13:</strong>
+                                    <span class="">978-1250179944</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <strong>Language:</strong>
+                                    <span>English</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <strong>Pages:</strong>
+                                    <span>304</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <strong>Format:</strong>
+                                    <span>Paperback</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <strong>Genre:</strong>
+                                    <span>Self-Help, Psychology, Communication</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </section>
+                <section class="tab-pane fade text-start" id="related-resources-pane" role="tabpanel">
+                    <h2 class="text-center mb-4">Related Resources</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="list-group">
+                                <a href="https://www.example.com/article1" target="_blank"
+                                    class="list-group-item list-group-item-action">
+                                    <strong>Article:</strong> Understanding Personality Types – A Guide
+                                </a>
+                                <a href="https://www.example.com/article2" target="_blank"
+                                    class="list-group-item list-group-item-action">
+                                    <strong>Article:</strong> How Communication Styles Affect Relationships
+                                </a>
+                                <a href="https://www.example.com/article3" target="_blank"
+                                    class="list-group-item list-group-item-action">
+                                    <strong>Article:</strong> Self-Awareness and Emotional Intelligence
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="list-group">
+                                <a href="https://www.example.com/video1" target="_blank"
+                                    class="list-group-item list-group-item-action">
+                                    <strong>Video:</strong> Analyzing Communication Styles
+                                </a>
+                                <a href="https://www.example.com/book1" target="_blank"
+                                    class="list-group-item list-group-item-action">
+                                    <strong>Book:</strong> The Art of People by Dave Kerpen
+                                </a>
+                                <a href="https://www.example.com/book2" target="_blank"
+                                    class="list-group-item list-group-item-action">
+                                    <strong>Book:</strong> Quiet: The Power of Introverts by Susan Cain
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
         </section>
     </main>

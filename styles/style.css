@@ -168,3 +168,11 @@ header {
   text-align: left;
   /* font-weight: 1000 !important; */
 }
+/* publisher data */
+#publisher-data-pane,
+#related-resources-pane {
+  color: black !important;
+}
+#related-resources-pane strong {
+  font-weight: bolder !important;
+}
