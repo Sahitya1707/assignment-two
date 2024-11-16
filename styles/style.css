@@ -176,3 +176,9 @@ header {
 #related-resources-pane strong {
   font-weight: bolder !important;
 }
+/* footer
+ */
+footer {
+  background: var(--color-1);
+  color: black;
+}
