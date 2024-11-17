@@ -17,10 +17,12 @@ body section:first-of-type {
 section {
   padding: 2rem 0rem;
 }
-
+.bg-primary {
+  background-color: var(--color-2) !important;
+}
 #home {
   height: 100vh;
-  width: 100vw;
+  /* width: 100vw; */
   gap: 0 10rem;
 
   background-color: var(--color-1);
@@ -46,7 +48,7 @@ section {
   text-shadow: -3px 5px 15px rgb(150, 94, 94);
 }
 .buy-book {
-  width: 100vw;
+  /* width: 100vw; */
 }
 .button-style-1 {
   color: white;
@@ -61,7 +63,7 @@ section {
   transition: 0.2s ease-in-out;
 }
 header {
-  width: 100vw;
+  /* width: 100vw; */
 }
 #nav {
   background-color: var(--color-1) !important;
