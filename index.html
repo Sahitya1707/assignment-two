@@ -16,9 +16,10 @@
     <script src="./script/app.js" defer></script>
 </head>
 
-<body data-bs-spy="scroll" data-bs-target="#nav" data-bs-offset="50">
+<body data-bs-spy="scroll" data-bs-target="#nav" data-bs-offset="50" class="">
 
-    <section class="hero d-lg-flex justify-content-center align-items-center text-center border-lg-none border-bottom"
+    <section
+        class="hero w-sm-100 w-100 d-lg-flex justify-content-center align-items-center text-center border-lg-none border-bottom"
         id="home">
         <div class="">
             <img src="./images/hero.png" alt="" class="">
@@ -79,7 +80,7 @@
         </nav>
     </header>
     <main class="container">
-        <section class="py-lg-5 py-3 border-bottom" id="about">
+        <section class="py-lg-5 py-0 py-sm-3 border-bottom" id="about">
             <div class="d-flex flex-lg-row flex-column-reverse  my-3 about-description">
                 <div class="">
                     <img src="./images/img_1.png" class="p-lg-5 p-3" alt="">
@@ -220,7 +221,8 @@
         </section>
         <section class="border-bottom" id="author">
             <span class="text-uppercase heading-style-three fw-bolder mt-2">Who is thomas erikson?</span>
-            <div class="text-left d-flex justify-content-between gap-5" id="author-info">
+            <div class="text-left d-flex flex-column flex-lg-row justify-content-evenly justify-lg-content-between gap-lg-5"
+                id="author-info">
                 <p class="me-5">
                     Thomas Erikson is a Swedish behavioural expert, bestselling author and active lecturer. For more
                     than 20 years, he has
@@ -243,11 +245,11 @@
                     navigate human
                     interactions with greater ease and empathy
                 </p>
-                <img src="./images/thomas-erikson.png" class="rounded" alt="" id="author">
+                <img src="./images/thomas-erikson.png" class="rounded m-auto" alt="" id="author">
             </div>
-            <div class="text-center" id="other-books">
+            <div class="text-lg-center text-start mt-lg-2 mt-4" id="other-books">
                 <span class="heading-style-three my-4">Other Books by author</span>
-                <div id="carousel" class="carousel slide mx-auto mt-5" style="max-width: 600px;">
+                <div id="carousel" class="carousel slide mx-auto mt-2 mt-lg-5" style="max-width: 600px;">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"
                             aria-current="true" aria-label="Slide 1"></button>
@@ -285,7 +287,7 @@
 
             </div>
         </section>
-        <section id="buy-now" class=" border-bottom text-center">
+        <section id="buy-now" class=" border-bottom text-lg-center text-start">
             <span class="heading-style-three">Get a Copy of the
                 World's best book
             </span>
@@ -303,7 +305,8 @@
 
                 </span>
             </p>
-            <div class="buy-button py-3 d-flex justify-content-center align-items-center gap-5 ">
+            <div
+                class="buy-button py-3 d-flex justify-content-lg-center align-items-center gap-sm-5 gap-3 fs-lg-1 fs-5  flex-wrap">
                 <a class="button-style-1 text-decoration-none " role="button" target="_blank"
                     href="https://www.amazon.ca/Surrounded-Idiots-Behavior-Effectively-Communicate/dp/1250179939/ref=sr_1_1?sr=8-1">
                     Amazon</a>
@@ -317,7 +320,7 @@
                     Books</a>
             </div>
         </section><!-- font bold and strong element is not working, don't know why -->
-        <section id="other-info" class="border-bottom text-center">
+        <section id="other-info" class="border-bottom tex-lg-center text-start">
             <span class="heading-style-three">Other Information</span>
             <p class="text-start">Dive deeper into the world of Surrounded by Idiots by exploring key insights,
                 practical guides, and
@@ -608,7 +611,7 @@
         </section>
         <!-- CONTACT SECITON
           -->
-        <section class="text-center border-bottom" id="contact">
+        <section class="text-lg-center text-start border-bottom" id="contact">
             <span class="heading-style-three">
                 Contact
             </span>

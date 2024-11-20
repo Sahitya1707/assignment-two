@@ -1,12 +1,19 @@
-/* `sm` applies to x-small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+}
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
 }
 
-/* `md` applies to small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
-}
 /* `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
+  /* constrolling active nav turning it off in mobile devices */
+  .active {
+    color: black !important;
+  }
+  .active::after {
+    content: none;
+  }
   .hero img {
     height: 40rem;
   }
@@ -30,12 +37,44 @@
 
   #nav {
   }
+  #author-info img {
+    width: 20rem;
+  }
+  #buy-now span.heading-style-three::after {
+    content: none;
+  }
+}
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .button-style-1 {
+    border-radius: 10px;
+  }
 }
 
-/* `xl` applies to large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {
-}
-
-/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
-@media (max-width: 1399.98px) {
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .hero img {
+    height: 33rem;
+  }
+  .book-info span {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 0.9rem;
+  }
+  .heading-style-three::after {
+    content: none;
+  }
+  .heading-style-three {
+    font-size: 1.5rem;
+  }
+  .container {
+    padding: 0rem 2rem;
+  }
+  #about img {
+    height: 15rem;
+  }
+  .accordion-item {
+    font-size: 0.7rem !important;
+  }
 }
