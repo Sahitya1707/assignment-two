@@ -21,33 +21,44 @@
     <section
         class="hero w-sm-100 w-100 d-lg-flex justify-content-center align-items-center text-center border-lg-none border-bottom"
         id="home">
+        <!-- Hero section starts here -->
+        <!-- This section serves as the main introduction area with a hero image and some key information about the book -->
         <div class="">
+            <!-- Added the hero image to make the section visually appealing -->
             <img src="./images/hero.png" alt="" class="">
         </div>
         <div class="book-info">
+            <!-- This block contains the key book information, like sales stats and title -->
             <div class="fs-3 mt-lg-0 mt-3">
+                <!-- Added an eye-catching sales stat for emphasis -->
                 <p>Over <br>
                     <span class="lh-1">2 Million</span><br>Copies Sold
                 </p>
             </div>
             <div>
+                <!-- Displayed the book's 'Best Seller' tag prominently -->
                 <h1 class="heading-style-one">
                     Best Seller
                 </h1>
                 <ul></ul>
             </div>
         </div>
+        <!-- Hero section ends here -->
     </section>
+
     <div class="d-none d-lg-block buy-book bg-black text-light text-center py-5">
+        <!-- Desktop-only buy section for showcasing purchase options -->
         <h2 class="heading-style-two text-uppercase fw-bolder fs-1">
             Buy Your Copy Of Surrounded By Idiots
         </h2>
-        <div class="buy-button py-3 d-flex justify-content-center align-items-center gap-5 ">
-            <a class="button-style-1 text-decoration-none " role="button" target="_blank"
+        <div class="buy-button py-3 d-flex justify-content-center align-items-center gap-5">
+            <!-- Added links to different platforms for buying the book -->
+            <a class="button-style-1 text-decoration-none" role="button" target="_blank"
                 href="https://www.amazon.ca/Surrounded-Idiots-Behavior-Effectively-Communicate/dp/1250179939/ref=sr_1_1?sr=8-1">
                 Amazon</a>
             <a class="button-style-1 text-decoration-none" role="button" target="_blank"
-                href="https://www.audible.ca/pd/Surrounded-by-Idiots-Audiobook/B07VDTWQVJ?eac_link=63MEhtCscyZY&ref=web_search_eac_asin_1&eac_selected_type=asin&eac_selected=B07VDTWQVJ&qid=aFRN7Y4VPY&eac_id=135-9494793-6779954_aFRN7Y4VPY&sr=1-1">Audible</a>
+                href="https://www.audible.ca/pd/Surrounded-by-Idiots-Audiobook/B07VDTWQVJ?eac_link=63MEhtCscyZY&ref=web_search_eac_asin_1&eac_selected_type=asin&eac_selected=B07VDTWQVJ&qid=aFRN7Y4VPY&eac_id=135-9494793-6779954_aFRN7Y4VPY&sr=1-1">
+                Audible</a>
             <a class="button-style-1 text-decoration-none" role="button"
                 href="https://www.google.ca/books/edition/Surrounded_by_Idiots/mo1xDwAAQBAJ?hl=en&gbpv=1&dq=surrounded+by+idiots&printsec=frontcover"
                 target="_blank">Google Books</a>
@@ -55,202 +66,255 @@
                 href="https://books.apple.com/ca/book/surrounded-by-idiots/id1438428136" target="_blank">Apple Books</a>
         </div>
     </div>
-    <header class="header sticky-top ">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary pr-5 " id="nav">
-            <div class="container-fluid justify-content-end ">
 
+    <header class="header sticky-top">
+        <!-- Sticky header for consistent navigation throughout the page -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary pr-5" id="nav">
+            <div class="container-fluid justify-content-end">
+                <!-- Toggler for navigation bar in smaller screens -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="nav-pills collapse navbar-collapse justify-content-end " id="navbarNavAltMarkup">
-                    <div class="navbar-nav ">
+                <div class="nav-pills collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <!-- Added navigation links for quick access to different sections -->
                         <a class="nav-link active text-uppercase fw-bolder" aria-current="page" href="#home">Home</a>
-                        <a href="#about" class="nav-link text-uppercase fw-bolder">About the
-                            Book</a>
-                        <a d class="nav-link text-uppercase fw-bolder" href="#reviews">Reviews</a>
+                        <a href="#about" class="nav-link text-uppercase fw-bolder">About the Book</a>
+                        <a class="nav-link text-uppercase fw-bolder" href="#reviews">Reviews</a>
                         <a class="nav-link text-uppercase fw-bolder" href="#author">Author</a>
                         <a class="nav-link text-uppercase fw-bolder" href="#buy-now">Buy Now</a>
                         <a class="nav-link text-uppercase fw-bolder" href="#contact">Contact</a>
-
                     </div>
                 </div>
             </div>
         </nav>
     </header>
+
     <main class="container">
+        <!-- Section: About -->
         <section class="py-lg-5 py-0 py-sm-3 border-bottom" id="about">
-            <div class="d-flex flex-lg-row flex-column-reverse  my-3 about-description">
+            <!-- About the Book Content -->
+            <div class="d-flex flex-lg-row flex-column-reverse my-3 about-description">
                 <div class="">
+                    <!-- Book Image 1 -->
                     <img src="./images/img_1.png" class="p-lg-5 p-3" alt="">
                 </div>
-                <div class="about-description text-lg-end ">
-                    <span class=" fw-bolder heading-style-three ">About the Book</span>
+                <div class="about-description text-lg-end">
+                    <span class="fw-bolder heading-style-three">About the Book</span>
                     <p class="text-start">
-
+                        <!-- Book description providing insights on human behavior through color-coded personality types -->
                         "Surrounded by Idiots" by Thomas Erikson is an insightful guide to understanding human behavior
-                        through a unique and
-                        accessible approach. The book introduces four distinct personality types—Red, Yellow, Green, and
-                        Blue—that represent
-                        different communication and behavior styles. Reds are bold and decisive leaders; Yellows are
-                        social and enthusiastic;
-                        Greens are calm, empathetic team players; and Blues are analytical and detail-oriented. Through
-                        relatable examples,
-                        Erikson explains how identifying and adapting to these traits can improve relationships in every
-                        aspect of life—whether
-                        at work, with friends, or within family dynamics. Surrounded by Idiots empowers readers to
-                        embrace personality
-                        differences, enhance communication, and foster stronger connections. For anyone who’s ever felt
-                        misunderstood or
-                        struggled to relate to others, this book provides a straightforward, practical solution to
-                        bridging those gaps.</p>
+                        through
+                        a unique and accessible approach. The book introduces four distinct personality types—Red,
+                        Yellow,
+                        Green,
+                        and Blue—that represent different communication and behavior styles. Reds are bold and decisive
+                        leaders;
+                        Yellows are social and enthusiastic; Greens are calm, empathetic team players; and Blues are
+                        analytical
+                        and detail-oriented. Through relatable examples, Erikson explains how identifying and adapting
+                        to these
+                        traits can improve relationships in every aspect of life—whether at work, with friends, or
+                        within family
+                        dynamics. Surrounded by Idiots empowers readers to embrace personality differences, enhance
+                        communication,
+                        and foster stronger connections. For anyone who’s ever felt misunderstood or struggled to relate
+                        to
+                        others,
+                        this book provides a straightforward, practical solution to bridging those gaps.
+                    </p>
                 </div>
             </div>
+            <!-- Summary of the Book Content -->
             <div class="d-flex flex-column-reverse flex-lg-row-reverse my-lg-3 my-2 about-description">
                 <div class="">
+                    <!-- Book Image 2 -->
                     <img src="./images/img_2.png" class="p-lg-5 p-2" alt="">
                 </div>
                 <div class="about-description">
-                    <span class=" heading-style-three fw-bolder mt-2">Summary of the Book</span>
-                    <p>Surrounded by Idiots by Thomas Erikson is a practical and entertaining exploration of human
-                        personality types and
-                        communication styles. The book categorizes people into four color-coded personality types—Red,
-                        Yellow, Green, and
-                        Blue—each with unique strengths, weaknesses, and ways of interacting. Reds are direct,
-                        results-driven, and assertive;
-                        Yellows are sociable, spontaneous, and creative; Greens are patient, calm, and supportive; while
-                        Blues are analytical,
-                        detail-oriented, and structured. By understanding these personality types, readers can learn to
-                        adapt their
-                        communication approach to connect more effectively with others, reduce misunderstandings, and
-                        improve their
-                        relationships. Full of relatable anecdotes and actionable insights, Surrounded by Idiots offers
-                        a simple yet powerful
-                        framework for navigating the complexities of human interaction in both personal and professional
-                        settings.</p>
+                    <span class="heading-style-three fw-bolder mt-2">Summary of the Book</span>
+                    <p>
+                        <!-- Summary highlighting personality types and actionable insights -->
+                        Surrounded by Idiots by Thomas Erikson is a practical and entertaining exploration of human
+                        personality
+                        types and communication styles. The book categorizes people into four color-coded personality
+                        types—Red,
+                        Yellow, Green, and Blue—each with unique strengths, weaknesses, and ways of interacting. Reds
+                        are
+                        direct,
+                        results-driven, and assertive; Yellows are sociable, spontaneous, and creative; Greens are
+                        patient,
+                        calm,
+                        and supportive; while Blues are analytical, detail-oriented, and structured. By understanding
+                        these
+                        personality
+                        types, readers can learn to adapt their communication approach to connect more effectively with
+                        others,
+                        reduce misunderstandings, and improve their relationships. Full of relatable anecdotes and
+                        actionable
+                        insights, Surrounded by Idiots offers a simple yet powerful framework for navigating the
+                        complexities of
+                        human interaction in both personal and professional settings.
+                    </p>
                 </div>
             </div>
         </section>
-        <section class="text-lg-center border-bottom " id="reviews">
-            <span class="heading-style-three">What People says</span>
-            <div class="row gap--lg-4 gap-2 row-lg-cols-2  justify-content-center my-2 fs-6 fs-md-4">
-                <div class="col-lg-5  rounded-2 rounded-lg-0 px-lg-4 p-lg-0 p-2 py-lg-3 review-card ">
 
-                    <p>"Surrounded by Idiots" by Thomas Erikson is a refreshing take on personality types and
-                        communication. Far
-                        from labeling people as difficult or 'idiots,' the book presents a fascinating framework
-                        using four
-                        colors (Red, Yellow, Green, and Blue) to describe a range of personality traits.</p>
+        <!-- Section: Reviews -->
+        <section class="text-lg-center border-bottom" id="reviews">
+            <!-- Section Heading -->
+            <span class="heading-style-three">What People Says</span>
+            <div class="row gap-lg-4 gap-2 row-lg-cols-2 justify-content-center my-2 fs-6 fs-md-4">
+                <!-- Review 1 -->
+                <div class="col-lg-5 rounded-2 rounded-lg-0 px-lg-4 p-lg-0 p-2 py-lg-3 review-card">
+                    <p>
+
+                        "Surrounded by Idiots" by Thomas Erikson is a refreshing take on personality types and
+                        communication.
+                        Far
+                        from labeling people as difficult or 'idiots,' the book presents a fascinating framework using
+                        four
+                        colors (Red, Yellow, Green, and Blue) to describe a range of personality traits.
+                    </p>
                     <div class="d-flex gap-2">
                         <img src="./images/profile.jpg" alt="" class="profile rounded-circle">
                         <p>Harihar Pandey</p>
-
                     </div>
                 </div>
-                <div class="col-lg-5  rounded px-lg-4 p-lg-0 p-2 py-lg-3 review-card">
+                <!-- Review 2 -->
+                <div class="col-lg-5 rounded px-lg-4 p-lg-0 p-2 py-lg-3 review-card">
+                    <p>
 
-                    <p>I believe this book applies more to businesses than personal relationships. I learned a few
-                        things and categorized my
-                        family and friends into the colors I thought they were. Even if you understand how each color
-                        thinks and behaves, it's
-                        hard to apply in your personal life. It's good for someone in a leadership position.</p>
+                        I believe this book applies more to businesses than personal relationships. I learned a few
+                        things and
+                        categorized my family and friends into the colors I thought they were. Even if you understand
+                        how each
+                        color thinks and behaves, it's hard to apply in your personal life. It's good for someone in a
+                        leadership
+                        position.
+                    </p>
                     <div class="d-flex gap-2">
                         <img src="./images/profile.jpg" alt="" class="profile rounded-circle">
                         <p>Jehad Abu-Ulbeh</p>
-
                     </div>
                 </div>
-                <div class="col-lg-5  rounded px-lg-4 p-lg-0 p-2 py-lg-3 review-card">
+                <!-- Review 3 -->
+                <div class="col-lg-5 rounded px-lg-4 p-lg-0 p-2 py-lg-3 review-card">
+                    <p>
 
-                    <p>This is a very entertaining book about personalities. You can definitely name people you know or
-                        work with and
-                        categorise as we the book. However, it is the blend of the different character traits that is
-                        the difficult bit to
-                        figure out. It's very rare anyone is a pure xyz. You can probably spot another trait in their
-                        character as a blend of
-                        two is quite normal.</p>
+                        This is a very entertaining book about personalities. You can definitely name people you know or
+                        work
+                        with and categorize them as per the book. However, it is the blend of the different character
+                        traits
+                        that
+                        is the difficult bit to figure out. It's very rare anyone is a pure xyz. You can probably spot
+                        another
+                        trait in their character as a blend of two is quite normal.
+                    </p>
                     <div class="d-flex gap-2">
                         <img src="./images/profile.jpg" alt="" class="profile rounded-circle">
                         <p>Kevin H</p>
-
                     </div>
                 </div>
-                <div class="col-lg-5  rounded px-lg-4 p-lg-0 p-2 py-lg-3 review-card">
+                <!-- Review 4 -->
+                <div class="col-lg-5 rounded px-lg-4 p-lg-0 p-2 py-lg-3 review-card">
+                    <p>
 
-                    <p>This won’t tell you everything about a person but it will give you a good insight why people are
-                        the way that they are.
-                        It’s made me reflect on myself and helped me to develop a better understanding of everyone
-                        around me and how best to
-                        interact with them. For years I couldn’t understand why some people behaved how they do, now
-                        it’s so much clearer.</p>
+                        This won’t tell you everything about a person but it will give you a good insight why people are
+                        the way
+                        that they are. It’s made me reflect on myself and helped me to develop a better understanding of
+                        everyone
+                        around me and how best to interact with them. For years I couldn’t understand why some people
+                        behaved
+                        how
+                        they do, now it’s so much clearer.
+                    </p>
                     <div class="d-flex gap-2">
                         <img src="./images/profile.jpg" alt="" class="profile rounded-circle">
                         <p>Trees</p>
-
                     </div>
                 </div>
-                <div class="col-lg-5  rounded px-lg-4 p-lg-0 p-2 py-lg-3 review-card">
+                <!-- Review 5 -->
+                <div class="col-lg-5 rounded px-lg-4 p-lg-0 p-2 py-lg-3 review-card">
+                    <p>
 
-                    <p>I just can't wrap my head around categorizing people into 4 categories. I think people are so
-                        much more complex than
-                        that. Otherwise, the concept is interesting for sure, and there are definitely some techniques
-                        and information that can
-                        be useful. Would've liked him to go deeper into people who are mixed colours.</p>
+                        I just can't wrap my head around categorizing people into 4 categories. I think people are so
+                        much more
+                        complex than that. Otherwise, the concept is interesting for sure, and there are definitely some
+                        techniques
+                        and information that can be useful. Would've liked him to go deeper into people who are mixed
+                        colours.
+                    </p>
                     <div class="d-flex gap-2">
                         <img src="./images/profile.jpg" alt="" class="profile rounded-circle">
                         <p>C.Demi</p>
-
                     </div>
                 </div>
-                <div class="col-lg-5  rounded px-lg-4 p-lg-0 p-2 py-lg-3 review-card">
+                <!-- Review 6 -->
+                <div class="col-lg-5 rounded px-lg-4 p-lg-0 p-2 py-lg-3 review-card">
+                    <p>
 
-                    <p>I have so many takeaways from this book. We really could save a lot of trouble and arguments if
-                        we just understood how
-                        each one of us behaves. Great read! A red is the way they are because that’s who they are. They
-                        don’t intend to hurt
-                        people’s feelings, they’re just being the way they are - Red!</p>
+                        I have so many takeaways from this book. We really could save a lot of trouble and arguments if
+                        we just
+                        understood how each one of us behaves. Great read! A red is the way they are because that’s who
+                        they
+                        are.
+                        They don’t intend to hurt people’s feelings, they’re just being the way they are - Red!
+                    </p>
                     <div class="d-flex gap-2">
                         <img src="./images/profile.jpg" alt="" class="profile rounded-circle">
                         <p>Sheng C</p>
-
                     </div>
                 </div>
-
             </div>
         </section>
+
+        <!-- Section: Author -->
         <section class="border-bottom" id="author">
-            <span class="text-uppercase heading-style-three fw-bolder mt-2">Who is thomas erikson?</span>
+            <!-- Author Heading -->
+            <span class="text-uppercase heading-style-three fw-bolder mt-2">Who is Thomas Erikson?</span>
             <div class="text-left d-flex flex-column flex-lg-row justify-content-evenly justify-lg-content-between gap-lg-5"
                 id="author-info">
                 <p class="me-5">
-                    Thomas Erikson is a Swedish behavioural expert, bestselling author and active lecturer. For more
-                    than 20 years, he has
+                    <!-- Author Biography -->
+                    Thomas Erikson is a Swedish behavioural expert, bestselling author and active lecturer. For more
+                    than 20
+                    years, he has
                     travelled across Europe delivering lectures and seminars in Swedish and in English to executives and
                     managers in
-                    companies including IKEA, Coca Cola, Microsoft, Volvo and KIA Motors. Surrounded by Idiots (Omgiven
-                    Av Idioter) is a
+                    companies including IKEA, Coca Cola, Microsoft, Volvo, and KIA Motors. Surrounded by Idiots (Omgiven
+                    Av
+                    Idioter) is a
                     Swedish runaway bestseller, selling more than 1 million copies in Sweden alone. It has sold over 3
-                    million copies
+                    million
+                    copies
                     worldwide, since it was first published in 2014, and has been translated into 55 languages. For more
                     information about
                     the author and his work visit thomaserikson.com.
-                    <br> <br>
+                    <br><br>
                     His mission is to make people’s lives easier by making them more aware of themselves and help people
-                    to a better
+                    to a
+                    better
                     understanding of what it takes to achieve the best possible communication.
                     <br><br>Through his writing, he provides readers with practical tools to understand different
-                    personality types, enhancing their
+                    personality
+                    types, enhancing their
                     relationships both personally and professionally. Erikson's work has helped millions learn to
                     navigate human
-                    interactions with greater ease and empathy
+                    interactions with greater ease and empathy.
                 </p>
-                <img src="./images/thomas-erikson.png" class="rounded m-auto" alt="" id="author">
+                <!-- Author Image -->
+                <img src="./images/thomas-erikson.png" class="rounded m-auto" alt="Thomas Erikson" id="author">
             </div>
+
+            <!-- Section: Other Books -->
             <div class="text-lg-center text-start mt-lg-2 mt-4" id="other-books">
-                <span class="heading-style-three my-4">Other Books by author</span>
+                <span class="heading-style-three my-4">Other Books by the Author</span>
                 <div id="carousel" class="carousel slide mx-auto mt-2 mt-lg-5" style="max-width: 600px;">
                     <div class="carousel-indicators">
+                        <!-- Carousel Indicators -->
                         <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"
                             aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"
@@ -259,22 +323,21 @@
                             aria-label="Slide 3"></button>
                     </div>
                     <div class="carousel-inner">
-                        <div class="carousel-item active rounded ">
+                        <!-- Carousel Items -->
+                        <div class="carousel-item active rounded">
                             <img src="./images/other-books/book-1.png" class="d-block w-100 rounded p-2"
                                 alt="Surrounded By Psychopaths">
-
                         </div>
                         <div class="carousel-item border rounded p-2">
                             <img src="./images/other-books/book-2.png" class="d-block w-100 rounded"
                                 alt="Surrounded By Bad Bosses">
-
                         </div>
                         <div class="carousel-item border rounded">
                             <img src="./images/other-books/book-3.png" class="d-block w-100 rounded"
                                 alt="Surrounded by Setbacks">
-
                         </div>
                     </div>
+                    <!-- Carousel Controls -->
                     <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
@@ -284,34 +347,37 @@
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
-
             </div>
         </section>
-        <section id="buy-now" class=" border-bottom text-lg-center text-start">
-            <span class="heading-style-three">Get a Copy of the
-                World's best book
-            </span>
-            <p class="text-start">Are you ready to unlock the secrets of effective communication? Surrounded by Idiots
-                by
-                Thomas Erikson
-                provides a
+
+        <!-- Section: Buy Now -->
+        <section id="buy-now" class="border-bottom text-lg-center text-start">
+            <!-- Heading -->
+            <span class="heading-style-three">Get a Copy of the World's Best Book</span>
+            <p class="text-start">
+                Are you ready to unlock the secrets of effective communication? *Surrounded by Idiots* by
+                Thomas Erikson provides a
                 practical and engaging guide to understanding different personality types, helping you build stronger
                 relationships at
                 work, at home, and beyond. Join millions of readers worldwide who have discovered new insights into
                 human behavior with
-                this bestselling book.<br> <br><span class="fw-bold">
-
+                this bestselling book.
+                <br><br><span class="fw-bold">
                     Get your copy today and start improving yourself!
-
                 </span>
             </p>
+
+            <!-- Buy Now Buttons -->
             <div
-                class="buy-button py-3 d-flex justify-content-lg-center align-items-center gap-sm-5 gap-3 fs-lg-1 fs-5  flex-wrap">
-                <a class="button-style-1 text-decoration-none " role="button" target="_blank"
-                    href="https://www.amazon.ca/Surrounded-Idiots-Behavior-Effectively-Communicate/dp/1250179939/ref=sr_1_1?sr=8-1">
-                    Amazon</a>
+                class="buy-button py-3 d-flex justify-content-lg-center align-items-center gap-sm-5 gap-3 fs-lg-1 fs-5 flex-wrap">
                 <a class="button-style-1 text-decoration-none" role="button" target="_blank"
-                    href="https://www.audible.ca/pd/Surrounded-by-Idiots-Audiobook/B07VDTWQVJ?eac_link=63MEhtCscyZY&ref=web_search_eac_asin_1&eac_selected_type=asin&eac_selected=B07VDTWQVJ&qid=aFRN7Y4VPY&eac_id=135-9494793-6779954_aFRN7Y4VPY&sr=1-1">Audible</a>
+                    href="https://www.amazon.ca/Surrounded-Idiots-Behavior-Effectively-Communicate/dp/1250179939/ref=sr_1_1?sr=8-1">
+                    Amazon
+                </a>
+                <a class="button-style-1 text-decoration-none" role="button" target="_blank"
+                    href="https://www.audible.ca/pd/Surrounded-by-Idiots-Audiobook/B07VDTWQVJ?eac_link=63MEhtCscyZY&ref=web_search_eac_asin_1&eac_selected_type=asin&eac_selected=B07VDTWQVJ&qid=aFRN7Y4VPY&eac_id=135-9494793-6779954_aFRN7Y4VPY&sr=1-1">
+                    Audible
+                </a>
                 <a class="button-style-1 text-decoration-none" role="button"
                     href="https://www.google.ca/books/edition/Surrounded_by_Idiots/mo1xDwAAQBAJ?hl=en&gbpv=1&dq=surrounded+by+idiots&printsec=frontcover"
                     target="_blank">Google Books</a>
@@ -319,7 +385,8 @@
                     href="https://books.apple.com/ca/book/surrounded-by-idiots/id1438428136" target="_blank">Apple
                     Books</a>
             </div>
-        </section><!-- font bold and strong element is not working, don't know why -->
+        </section>
+        <!-- font bold and strong element is not working, don't know why -->
         <section id="other-info" class="border-bottom tex-lg-center text-start">
             <span class="heading-style-three">Other Information</span>
             <p class="text-start">Dive deeper into the world of Surrounded by Idiots by exploring key insights,
